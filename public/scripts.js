@@ -80,7 +80,7 @@ function onPageLoad() {
     document.getElementById("oppShotImgLab").style.display = "none"
   
     if (oppCheck) {
-        resultString = resultString + ' and the Bot picked ' + result.opponent + ', so you ' + result.result;
+        resultString = resultString + ' and the Bot picked ' + result.opponent + '. You ' + result.result + '!';
         document.getElementById("oppShotImg").setAttribute("src", "img/"+result.opponent+".jpg");
         document.getElementById("oppShotImgLab").style.display = "block"
         document.getElementById("oppShotImg").style.display = "inline"
